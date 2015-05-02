@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="APP_NAME">UniversalSearch</string>
+	<string name="ACTION_PICK_PLUGIN">universalSearch.intent.action.PICK_PLUGIN</string>
+	<string name="PREFS">com.pasdam.universalsearch.prefs</string>
+	<string name="PREFS_PLUGIN_CURRENT_NAME">com.pasdam.universalsearch.prefs.currentplugin.name</string>
+	<string name="PREFS_PLUGIN_CURRENT_IS_SERVICE">com.pasdam.universalsearch.prefs.currentplugin.isservice</string>
+	<string name="PLUGINS_SUBDIR">plugins</string>
+</resources>

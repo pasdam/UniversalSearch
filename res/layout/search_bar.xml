@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Outer layout defines the entire search bar at the top of the screen -->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_plate"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip"
+    android:paddingTop="7dip"
+    android:paddingBottom="16dip"
+    android:background="@drawable/searchbar_search_plate_global" >
+
+    <!-- Inner layout contains the app icon, button(s) and EditText -->
+        
+        <!-- Service selector -->
+        <ImageView
+            android:id="@+id/search_app_icon"
+            android:focusable="true"
+    		android:clickable="true"
+            android:src="@drawable/icon"
+			android:background="@drawable/searchbar_corpus_indicator_bg"
+        	android:cropToPadding="true" 
+        	android:scaleType="fitXY" 
+        	android:layout_width="48dip" 
+        	android:contentDescription="@string/search_app_icon_description"
+        	android:layout_height="fill_parent"/>
+
+        <!-- Text to search -->
+		<AutoCompleteTextView android:id="@+id/search_src_text"
+            android:background="@drawable/searchbar_textfield_search"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1.0"
+            android:paddingLeft="8dip"
+            android:paddingRight="6dip"
+            android:drawablePadding="2dip"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:selectAllOnFocus="true"
+            android:inputType="text|textAutoComplete"
+            android:dropDownWidth="fill_parent"
+            android:dropDownHeight="fill_parent"
+            android:dropDownAnchor="@id/search_plate"
+            android:popupBackground="@drawable/searchbar_search_dropdown_background" android:completionThreshold="1">
+		</AutoCompleteTextView>
+            
+        <!-- Search button -->
+        <Button 
+            android:id="@+id/search_go_btn"
+            android:background="@drawable/searchbar_btn_search_dialog"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/search_go_btn_description"
+            android:layout_height="fill_parent" android:drawableBottom="@drawable/searchbar_ic_btn_search"/>
+    
+</LinearLayout>

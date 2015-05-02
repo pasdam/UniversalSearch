@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="noPluginsAvailable">Sorry, no plugin is available. Please install at least one plugin before use this app.</string>
+	<string name="unableToLoadPage">Unable to load the page</string>
+	<string name="openInBrowser">Open in Browser</string>
+	<string name="unableToLoadMoreResults">Unable to load more results</string>
+	<string name="unableToAccessExternalStorage">Unable to access external storage</string>
+	<string name="importOpenSearchDescriptionFromText">Import OpenSearch description from text</string>
+	<string name="insertDescription">Insert xml description</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+    <string name="search_app_icon_description">Search service to use</string>
+    <string name="search_go_btn_description">Perform search</string>
+</resources>
